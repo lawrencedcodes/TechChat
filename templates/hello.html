@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+	<title>Hello World</title>
+</head>
+<body>
+    {% if myvar%}
+    <h3>The unique word is {{ myvar }} </h3>
+	<h1>Hello World one more time!  This is the hello page</h1>
+	{% else%}
+	<h3>No variable present</h3>
+	{% endif %}
+	 {% for link in links%}
+        <a href="{{ link }}">Link 1</a>
+
+    {% endfor %}
+</body>
+
+
+</html>
